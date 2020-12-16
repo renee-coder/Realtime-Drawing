@@ -30,4 +30,11 @@ canvas{
     border: 5px solid white;
     border-radius: 20px;
     box-shadow: 5px 5px 5px grey;
+    animation-name: canvas_animation;
+    animation-duration:4s ;
+    animation-iteration-count: infinite;
+}
+@keyframes canvas_animation{
+    from {box-shadow: 10px 10px 10px 15px rgb(255, 137, 196);}
+    to{box-shadow: 10px 10px 10px rgb(164, 255, 137);}
 }
